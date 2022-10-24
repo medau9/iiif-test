@@ -1,6 +1,6 @@
 {
 	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "https://megidauti.github.io/manifest.json",
+	"@id": "https://megidauti/iiif-test/blob/main/iiif-test.github.io/manifest.json",
 	"@type": "sc:Manifest",
 	"label": "Acacia saligna",
 	"metadata": [],
