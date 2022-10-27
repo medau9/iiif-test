@@ -1,9 +1,98 @@
 {
 	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "http://01ec86b0-2d4b-4c93-bca9-4c8b10777e48",
+	"@id": "http://f2eea7da-add2-4fcb-bbc8-221bc86debcd",
 	"@type": "sc:Manifest",
-	"label": "Acacia saligna",
-	"metadata": [],
+	"label": "Adamović Lujo",
+	"metadata": [
+		{
+			"label": "Dokument-ID",
+			"value": "A1"
+		},
+		{
+			"label": "GND_Nr",
+			"value": "116242671"
+		},
+		{
+			"label": "HUH_GUID",
+			"value": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/2d91f690-dd21-403c-9020-2f021b17006a"
+		},
+		{
+			"label": "Name",
+			"value": "Adamović"
+		},
+		{
+			"label": "Vornamen",
+			"value": "Lujo"
+		},
+		{
+			"label": "Geburtsjahr",
+			"value": "1864"
+		},
+		{
+			"label": "Todesjahr",
+			"value": "1935"
+		},
+		{
+			"label": "Wirkungsort_oder_land",
+			"value": "Belgrad, Dalmatien"
+		},
+		{
+			"label": "Beruf_Taetigkeit",
+			"value": "Botaniker"
+		},
+		{
+			"label": "Biographische_Angaben",
+			"value": "Value"
+		},
+		{
+			"label": "Anmerkungen_zum_Autor",
+			"value": "Value"
+		},
+		{
+			"label": "Original_Handschrift",
+			"value": "ja"
+		},
+		{
+			"label": "Dokumenttyp",
+			"value": "Separatdruck mit handschriftlicher Widmung"
+		},
+		{
+			"label": "Titel_Inhalt",
+			"value": "Plantae macedonicae novae. Separatdruck aus der Österreichischen botanischen Zeitschrift, Jg. 1905, Nr. 5 u. 6, 7 S"
+		},
+		{
+			"label": "Anmerkung",
+			"value": "Value"
+		},
+		{
+			"label": "Datum_des_Briefes",
+			"value": " 26.12.1963"
+		},
+		{
+			"label": "Sprache",
+			"value": "deutsch"
+		},
+		{
+			"label": "Ablage-Ort",
+			"value": "NK 6 Autographen 1"
+		},
+		{
+			"label": "besitzende_Institution",
+			"value": "BGBM"
+		},
+		{
+			"label": "Objektart",
+			"value": "h"
+		},
+		{
+			"label": "fuer_weitere_Forschung_nutzbar",
+			"value": "Value"
+		},
+		{
+			"label": "Abweichung_Scan_Standard",
+			"value": "Value"
+		}
+	],
 	"description": [
 		{
 			"@value": "[Click to edit description]",
@@ -11,10 +100,10 @@
 		}
 	],
 	"license": "https://creativecommons.org/licenses/by/3.0/",
-	"attribution": "[Click to edit attribution]",
+	"attribution": "http://creativecommons.org/licenses/by-nc-sa/4.0/deed.de",
 	"sequences": [
 		{
-			"@id": "http://358ce379-0814-40ba-b67b-1e3d8cce2090",
+			"@id": "http://ac36ba9c-383a-49ba-8ab8-58de245c134c",
 			"@type": "sc:Sequence",
 			"label": [
 				{
@@ -24,34 +113,34 @@
 			],
 			"canvases": [
 				{
-					"@id": "http://40603ac4-1a10-4238-aff5-62aa3e192b34",
+					"@id": "http://bb70d3e7-9876-4727-9d2a-21707eaf7016",
 					"@type": "sc:Canvas",
-					"label": "Acacia saligna B1",
-					"height": 1400,
-					"width": 1400,
+					"label": "Image 1",
+					"height": 943,
+					"width": 617,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://650deaab-cf25-4ad5-9460-f1a5e82a5968",
+							"@id": "http://77eb7bcd-515f-4771-8037-0122b560febd",
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
 							"resource": {
-								"@id": "http://130.133.68.189:8182/iiif/2/Acacia_saligna_B1.jpg/full/full/0/default.jpg",
+								"@id": "http://127.0.0.1:8182/iiif/2/Adamovic_Lujo1.PNG/full/full/0/default.jpg",
 								"@type": "dctypes:Image",
 								"format": "image/jpeg",
 								"service": {
 									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "http://130.133.68.189:8182/iiif/2/Acacia_saligna_B1.jpg",
+									"@id": "http://127.0.0.1:8182/iiif/2/Adamovic_Lujo1.PNG",
 									"profile": [
 										"http://iiif.io/api/image/2/level2.json",
 										{
 											"formats": [
-												"jpg",
 												"tif",
+												"jpg",
 												"gif",
 												"png"
 											],
-											"maxArea": 1960000,
+											"maxArea": 581831,
 											"qualities": [
 												"bitonal",
 												"default",
@@ -82,43 +171,43 @@
 										}
 									]
 								},
-								"height": 1400,
-								"width": 1400
+								"height": 943,
+								"width": 617
 							},
-							"on": "http://40603ac4-1a10-4238-aff5-62aa3e192b34"
+							"on": "http://bb70d3e7-9876-4727-9d2a-21707eaf7016"
 						}
 					],
 					"related": ""
 				},
 				{
-					"@id": "http://1e8b4d13-d40b-40f0-811b-c7d5d563a488",
+					"@id": "http://e8ae8a63-b897-47f1-b7c5-654dade43c22",
 					"@type": "sc:Canvas",
-					"label": "Acacia saligna B2",
-					"height": 1400,
-					"width": 1040,
+					"label": "Image 2",
+					"height": 937,
+					"width": 595,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://b50d23e2-9109-4474-b28d-20ce64d20a89",
+							"@id": "http://752c8f76-3943-4d6b-b77f-2eee898c7261",
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
 							"resource": {
-								"@id": "http://130.133.68.189:8182/iiif/2/Acacia_saligna_B2.jpg/full/full/0/default.jpg",
+								"@id": "http://127.0.0.1:8182/iiif/2/Adamovic_Lujo2.PNG/full/full/0/default.jpg",
 								"@type": "dctypes:Image",
 								"format": "image/jpeg",
 								"service": {
 									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "http://130.133.68.189:8182/iiif/2/Acacia_saligna_B2.jpg",
+									"@id": "http://127.0.0.1:8182/iiif/2/Adamovic_Lujo2.PNG",
 									"profile": [
 										"http://iiif.io/api/image/2/level2.json",
 										{
 											"formats": [
-												"jpg",
 												"tif",
+												"jpg",
 												"gif",
 												"png"
 											],
-											"maxArea": 1456000,
+											"maxArea": 557515,
 											"qualities": [
 												"bitonal",
 												"default",
@@ -149,10 +238,345 @@
 										}
 									]
 								},
-								"height": 1400,
-								"width": 1040
+								"height": 937,
+								"width": 595
 							},
-							"on": "http://1e8b4d13-d40b-40f0-811b-c7d5d563a488"
+							"on": "http://e8ae8a63-b897-47f1-b7c5-654dade43c22"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://f053c65f-ff71-4ead-a5f9-35c110ca6ae5",
+					"@type": "sc:Canvas",
+					"label": "Image 3",
+					"height": 933,
+					"width": 592,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://8355cfc6-88ef-4f18-82b2-5192d67c1861",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/Adamovic_Lujo3.PNG/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/Adamovic_Lujo3.PNG",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"tif",
+												"jpg",
+												"gif",
+												"png"
+											],
+											"maxArea": 552336,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 933,
+								"width": 592
+							},
+							"on": "http://f053c65f-ff71-4ead-a5f9-35c110ca6ae5"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://ef3fea8a-f484-4722-a2d2-87bfd3e8b274",
+					"@type": "sc:Canvas",
+					"label": "Image 4",
+					"height": 936,
+					"width": 614,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://6a720381-3de8-4010-9dad-b7d6b91475bd",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/Adamovic_Lujo4.PNG/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/Adamovic_Lujo4.PNG",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"tif",
+												"jpg",
+												"gif",
+												"png"
+											],
+											"maxArea": 574704,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 936,
+								"width": 614
+							},
+							"on": "http://ef3fea8a-f484-4722-a2d2-87bfd3e8b274"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://c1de6a08-cc6e-4c32-b7da-f6a38c27d837",
+					"@type": "sc:Canvas",
+					"label": "Image 5",
+					"height": 944,
+					"width": 610,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://752b651b-7833-41a8-804e-9c119e98123e",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/Adamovic_Lujo5.PNG/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/Adamovic_Lujo5.PNG",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"tif",
+												"jpg",
+												"gif",
+												"png"
+											],
+											"maxArea": 575840,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 944,
+								"width": 610
+							},
+							"on": "http://c1de6a08-cc6e-4c32-b7da-f6a38c27d837"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://65cd4ecd-c35a-456f-a676-3fb15130b8a5",
+					"@type": "sc:Canvas",
+					"label": "Image 6",
+					"height": 941,
+					"width": 621,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://ffe236d1-1922-4780-8f32-c4f85af9a713",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/Adamovic_Lujo6.PNG/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/Adamovic_Lujo6.PNG",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"tif",
+												"jpg",
+												"gif",
+												"png"
+											],
+											"maxArea": 584361,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 941,
+								"width": 621
+							},
+							"on": "http://65cd4ecd-c35a-456f-a676-3fb15130b8a5"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://cbd9b1fb-0521-4f15-92a8-aab4b693d8b2",
+					"@type": "sc:Canvas",
+					"label": "Image 7",
+					"height": 953,
+					"width": 591,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://65f05627-0d9a-4071-b009-fbcd152127e1",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/Adamovic_Lujo7.PNG/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/Adamovic_Lujo7.PNG",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"tif",
+												"jpg",
+												"gif",
+												"png"
+											],
+											"maxArea": 563223,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 953,
+								"width": 591
+							},
+							"on": "http://cbd9b1fb-0521-4f15-92a8-aab4b693d8b2"
 						}
 					],
 					"related": ""
@@ -160,5 +584,6 @@
 			]
 		}
 	],
-	"structures": []
+	"structures": [],
+	"viewingDirection": "left-to-right"
 }
